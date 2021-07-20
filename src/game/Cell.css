@@ -1,0 +1,19 @@
+.Cell {
+  width: 30px;
+  height: 30px;
+  margin: 1px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.Cell:hover {
+  background: #eee;
+}
+
+.Cell.cross {
+  background: #f00;
+}
+
+.Cell.circle {
+  background: #0f0;
+}
